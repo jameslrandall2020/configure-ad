@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/E7RhYGg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I signed on to Microsoft Azure and created two virtual machines. The first is a "Client-1" Win 10 VM, which will be used as a "user" account. The second is my domain controler "DC-1" Win Server 22 VM. 
+Sign on to Microsoft Azure and created two virtual machines. The first is a "Client-1" Win 10 VM, which will be used as a "user" account. The second is my domain controler "DC-1" Win Server 22 VM. 
 </p>
 <br />
 
@@ -39,7 +39,7 @@ I signed on to Microsoft Azure and created two virtual machines. The first is a 
 <img src="https://i.imgur.com/Yeenxuh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After the virtual machines setup in Azure, I connected to the domain controler (DC-1/ WIN Server 22) VM with remote desktop using the public IP address.
+After the virtual machines setup in Azure, connect to the domain controller (DC-1/ WIN Server 22) VM with remote desktop using the public IP address.
 </p>
 <br />
 
@@ -48,7 +48,7 @@ After the virtual machines setup in Azure, I connected to the domain controler (
 </p>
 <p>
 
-I then setup a new forest with my new domian. For this example it was "mydomain.com". I then created new organizational units for EMPLOYEES and ADMIN. Active Directory is now setup with EMPLOYEES and ADMIN organizational units.
+Then setup a new forest with my new domian. For this example it was "mydomain.com". I then created new organizational units for EMPLOYEES and ADMIN. Active Directory is now setup with EMPLOYEES and ADMIN organizational units.
 </p>
 <br />
 
